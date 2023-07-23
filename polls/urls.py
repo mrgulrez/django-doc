@@ -1,5 +1,6 @@
 from django.urls import path
-from .views import index, detail, vote, results
+# from .views import index, detail, vote, results
+from .views import IndexView, DetailView, ResultsView, vote
 
 app_name = 'polls'
 
